@@ -1,0 +1,109 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: "Arial", sans-serif;
+	font-size: 13px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+.right {
+	float:right;
+}
+
+.left {
+	float:left;
+}
+header {
+	height: 60px;
+}
+
+header ul {
+	position: absolute;
+	right:17px;
+}
+
+.share {
+	background-color: #eee;
+	width: 60px;
+	height:30px;
+	padding: 9px;
+	border-radius: 2px;
+}
+
+.profilepic {
+	border-radius: 50%;
+}
+
+ul li {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 10px 0 10px;
+}
+
+
+.logo {
+	height: 95px;
+	margin-top: 130px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.searchbar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ccc;
+	width: 560px;
+	height: 26px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 535px;
+	float:left;
+	border: none;
+	height: 24px;
+	box-shadow: none;
+}
+
+.mic {
+	width: 15px;
+	float: right;
+	margin: 3px;
+}
+
+.buttons {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+	width: 225px;
+}
+
+button {
+	margin: auto;
+	height: 25px;
+	background-color: #efefef;
+	border-width:1px;
+}
+
+footer {
+	height: 40px;
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer ul {
+	margin-right: 15px;
+}
